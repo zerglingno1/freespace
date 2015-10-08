@@ -33,10 +33,10 @@ require('./shooter/actors');
 
 // Start a Server
 Shooter.Server({
-    'port': 80,
+    'port': 3000,
     'status': false,
     'recordFile': './../record[date].js',
     'record': false,
     'flash': false
 });
-console.log('server is start');
+
