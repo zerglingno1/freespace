@@ -1,0 +1,10 @@
+{
+  "name": "freespace",
+  "description": "free fighting games",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "dependencies": {
+  }
+}
