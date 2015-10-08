@@ -1,1 +1,1 @@
-var HOST = '127.0.0.1', PORT = 3000;
+var HOST = 'freespace.herokuapp.com', PORT = 80;
