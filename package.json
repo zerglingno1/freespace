@@ -1,9 +1,9 @@
 {
   "name": "freespace",
   "description": "free fighting games",
-  "main": "server/server.js",
+  "main": "node server.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
   }
