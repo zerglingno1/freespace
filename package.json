@@ -1,10 +1,15 @@
 {
-  "name": "freespace",
-  "description": "free fighting games",
-  "main": "node server.js",
-  "scripts": {
-    "start": "node server.js"
+  "name": "photo-share",
+  "version": "0.0.3",
+  "description": "Photo sharing real-time",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nhtua/photoshare.git"
   },
   "dependencies": {
+    "express"   : "~4.12.4",
+    "socket.io" : "~1.3.5",
+    "jade"      : "~1.9.2",
+    "qr-image"  : "~3.1.0"
   }
 }

@@ -1,0 +1,27 @@
+doctype html
+html
+	head
+		title Home
+		link(rel="stylesheet" type="text/css" href="/css/home.css")
+		script(src="/socket.io/socket.io.js")
+		script(src="/js/receiver.script.js")
+	body
+		div#wrapper
+			div#info_room
+				div.row.center 				
+					h1
+						img#logo(src="/img/logo-64.png") 
+						span QR code
+					h2 Trình chiếu ảnh đơn giản
+				div.row.center
+					img#qrCode(src="" width=200)
+					p Your sharing code:
+						span#simpleCode
+				div.row.center
+					p Sharing code
+					input#inputSimpleCode(placeholder="Input simple code")
+					div#findFriend find
+			div.imgContainer.center
+				img#showPhoto(src="")
+				a#btnDownload(href="" download) Download
+
